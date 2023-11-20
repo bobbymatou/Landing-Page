@@ -1,0 +1,33 @@
+.nav {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1;
+}
+
+.logo {
+    flex:1;
+    justify-content: flex-end;
+    margin: 15px;
+}
+
+.hero {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.imgcontainer {
+    display: flex;
+    align-self: self-end;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
