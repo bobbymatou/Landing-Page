@@ -2,12 +2,22 @@ body {
     margin: 0;
 }
 
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h3 {
+    font-family: monospace;
+}
+
 .container {
     display: flex;
     background-color: #1F2937;
     color: #F9FAF8;
     justify-content: space-around;
     align-items: center;
+    padding-bottom: 100px;
+    padding-top: 100px;
 }
 
 .left-content h3 {
@@ -15,15 +25,33 @@ body {
 }
 
 .right-box {
-    background-color: aliceblue;
+    background-color: rgb(84, 103, 119);
     color: #E5E7EB;
-    padding-left: 40px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-right: 40px;
+    padding-left: 60px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-right: 60px;
+}
+
+.columns {
+    display: flex;
+    
+}
+
+.column {
+    padding: 15px 15px 15px 15px;
+    width: 100px;
+    height: 100px;
+    border: 2px solid blue;
+
 }
 
 button {
     background-color: #3882F6;
     border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #E5E7EB;
 }
